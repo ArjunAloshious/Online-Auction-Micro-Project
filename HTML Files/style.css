@@ -1,0 +1,129 @@
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+
+
+
+
+/*BOX LEFT*/ 
+     .y
+  {
+    position: absolute;/*Gap from Top*/ top: 30vh; margin-left:3%;margin-right:50%;margin-bottom:5%;background-color:white;width:45%;height:85%;line-height: 150%;word-spacing: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #00000030;
+  }
+
+/*BOX RIGHT*/
+    .z
+  {
+    position: absolute;/*Top*/ top: 30vh; margin-right:3%;margin-left:50%;margin-bottom:5%;background-color:white;width:45%;height:85%;line-height: 150%;word-spacing: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+
+
+
+         .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+         .btn-grad {
+           
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border:white;
+            border-radius: 10px;
+            display: block;
+            width: 15vw;
+            font-size: 1.5vw;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; 
+            color: #fff;
+            text-decoration: none;
+            border:0pc solid black;
+          }
+         
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+input{border:2px solid #383838c7;}
+      input:hover {
+     outline: none;
+     border: 2px solid #3366FF;}
+     input:focus {
+     outline: none;
+     border: 2px solid #3366FF;}
+
+
+/*Button Right*/
+.btn-grade {background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%)}
+.btn-grade {
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border:white;
+            border-radius: 10px;
+            display: block;
+            width: 15vw;
+            font-size: 1.5vw;
+          }
+
+.btn-grade:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+            border:0pc solid black;
+          }
+
+ /*Input Box Right*/         
+.p
+{ border:2px solid #383838c7;
+  height:2vw;
+}
+.p:hover {
+     outline: none;
+     border: 2px solid #66CD00;}
+     .p:focus {
+     outline: none;
+     border: 2px solid #66CD00;}
+
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{overflow-x: hidden;background-color:white;}
+h1{font-family:'Montserrat';font-size:5vw;color:#3366FF;}
+table{font-family:'Montserrat';font-size:2.5vw;color:#383838;}
+h3{font-family:'Montserrat';padding-left:1vw;font-size:1.5vw;color:blue;} 
+
